@@ -1,9 +1,9 @@
 var cesiumWidget = new Cesium.Viewer('cesiumContainer');
 
 //add a line
-var line = viewer.entities;
+var line1 = viewer.entities;
 
-line.add({
+line1.add({
     name : 'Red line on the surface',
     polyline : {
         positions : Cesium.Cartesian3.fromDegreesArray([-75, 35,
