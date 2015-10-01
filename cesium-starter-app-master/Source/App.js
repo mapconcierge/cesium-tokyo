@@ -6,9 +6,9 @@ var viewer = new Cesium.Viewer('cesiumContainer');
 //viewer.dataSources.add(Cesium.CzmlDataSource.load('/Source/test.czml'));
 
 //add a line
-var line1 = viewer.entities;
+var line = viewer.entities;
 
-line1.add({
+line.add({
     name : 'Red line on the surface',
     polyline : {
         positions : Cesium.Cartesian3.fromDegreesArray([-75, 35,
