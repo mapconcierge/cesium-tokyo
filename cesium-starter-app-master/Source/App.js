@@ -1,6 +1,5 @@
 var cesiumWidget = new Cesium.Viewer('cesiumContainer');
 
-//add a line
 var line1 = viewer.entities;
 
 line1.add({
