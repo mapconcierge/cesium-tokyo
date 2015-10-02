@@ -69,8 +69,8 @@
 	<Folder>
 		<name>test</name>
 		<Placemark>
-			<name>Tokyo_tower</name>
-			<description>tokyo tower_東京タワー</description>
+			<name>tokyo_tower</name>
+			<description>東京タワー</description>
 			<LookAt>
 				<longitude>139.7473803030664</longitude>
 				<latitude>35.65819589032881</latitude>
@@ -97,8 +97,8 @@
 			</LineString>
 		</Placemark>
 		<Placemark>
-			<name>Tokyo_station</name>
-			<description>tokyo station_東京駅</description>
+			<name>tokyo_station</name>
+			<description>東京駅</description>
 			<LookAt>
 				<longitude>139.7660837958526</longitude>
 				<latitude>35.68138180372797</latitude>
