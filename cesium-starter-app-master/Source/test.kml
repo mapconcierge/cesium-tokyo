@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>test.kml</name>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<color>ff1c2af4</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ff1c2af4</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ff1c2af4</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0864ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<color>ff1c2af4</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0864ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>test</name>
+		<Placemark>
+			<name>tokyo_tower</name>
+			<description><![CDATA[東京タワー
+<img src="http://sagara1020.github.io/cesium-tokyo/IMG_0878.JPG"/>]]></description>
+			<LookAt>
+				<longitude>139.750129403496</longitude>
+				<latitude>35.65948463098161</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004069538332168852</heading>
+				<tilt>42.44609317872325</tilt>
+				<range>1116.732195611573</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7456653523967,35.65810750848327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Path</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					139.7660263039523,35.6805565767712,0 139.7658513337764,35.67949048629353,0 139.765237190454,35.67771193102206,0 139.7634875921221,35.67792671446156,0 139.760911435799,35.67842947335366,0 139.7597237690391,35.67487070521787,0 139.7571849244519,35.67273775300104,0 139.755870054598,35.67010468207994,0 139.7549943699298,35.6682557830537,0 139.7535936299865,35.66541176529912,0 139.7528062497686,35.66342149004029,0 139.7516682752368,35.66121737825328,0 139.7510549056245,35.66000837398582,0 139.7504421157284,35.65951067224968,0 139.7493048163714,35.65972385913461,0 139.7482549176295,35.65972353712647,0 139.7474677955932,35.65943882478002,0 139.7470115898041,35.65841323883063,0 139.7461213253436,35.65881166759667,0 139.7459454545955,35.65871782866968,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>tokyo_station</name>
+			<description>東京駅</description>
+			<LookAt>
+				<longitude>139.7660837958526</longitude>
+				<latitude>35.68138180372797</latitude>
+				<altitude>0</altitude>
+				<heading>-2.418773668596827e-09</heading>
+				<tilt>0</tilt>
+				<range>1000.000033212397</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7660837955056,35.68122815005271,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
