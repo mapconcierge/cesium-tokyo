@@ -8,7 +8,7 @@ credit: new Cesium.Credit('地理院タイル', '', 'http://maps.gsi.go.jp/devel
 }),
 baseLayerPicker: false
 });
-viewer.scene.camera.setPositionCartographic(Cesium.Cartographic.fromDegrees(140.00, 36.14, 20000000.0));
+viewer.scene.camera.setPositionCartographic(Cesium.Cartographic.fromDegrees(100.00, 36.14, 20000000.0));
 
 // 1. Fly to a position with a top-down view
 //viewer.camera.flyTo({ destination : Cesium.Cartesian3.fromDegrees(139.76,35.67, 15000.0)});
