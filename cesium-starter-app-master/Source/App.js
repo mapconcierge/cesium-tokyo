@@ -1,12 +1,9 @@
 //var viewer = new Cesium.Viewer('cesiumContainer');
 
-//地理院タイル読み込み
-var viewer = new Cesium.Viewer('cesiumContainer', {
-imageryProvider: new Cesium.OpenStreetMapImageryProvider({
-url: 'http://cyberjapandata.gsi.go.jp/xyz/std/',
-credit: new Cesium.Credit('地理院タイル', '', 'http://maps.gsi.go.jp/development/ichiran.html')
-}),
-baseLayerPicker: false
+var viewer = new Cesium.BingMapsImageryProvider({
+    url : '//dev.virtualearth.net',
+    key : 'get-yours-at-https://www.bingmapsportal.com/',
+    mapStyle : Cesium.BingMapsStyle.AERIAL
 });
 
 // 1. Fly to a position with a top-down view
