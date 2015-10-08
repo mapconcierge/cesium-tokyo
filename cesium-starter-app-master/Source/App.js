@@ -1,4 +1,14 @@
-var viewer = new Cesium.Viewer('cesiumContainer');
+Cesium.BingMapsApi.defaultKey = "";
+    var viewer = new Cesium.Viewer('cesiumContainer',{
+      imageryProvider : new Cesium.ArcGisMapServerImageryProvider({
+        url : '//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer',
+        enablePickFeatures : false
+      }),
+      baseLayerPicker: false
+    });
+
+
+//var viewer = new Cesium.Viewer('cesiumContainer');
 
 
 // 1. Fly to a position with a top-down view
